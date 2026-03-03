@@ -1,0 +1,6 @@
+declare -x KEEP_SLURM_WORK_DIR=false
+declare -x RENAMED_WORK_DIR_PATH=/home/agb2275/cs213/seti/setilab-handout/seti-run-$SLURM_JOB_ID-eval-2026-03-02T19:53:56-06:00
+declare -x SETI_GOLDEN_DIR=/home/cs213lab/seti-scripts-slurm
+declare -x SETI_HANDOUT_DIR=/home/cs213lab/HANDOUT
+declare -x PERL5LIB=/home/cs213lab/seti-scripts-slurm
+declare -x SETI_EVAL_TO_RUN='/home/cs213lab/seti-scripts-slurm/seti-eval -n "qyg7004_agb2275" -t "UwU" -k d36b2d78a1a1396cb44d6b538e7df15a -a 3'
